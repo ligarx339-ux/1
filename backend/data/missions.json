@@ -1,0 +1,43 @@
+{
+  "-OSz3HnagzpKsjgscU3z": {
+    "active": true,
+    "category": "Join",
+    "channelId": "ligarx_boy",
+    "createdAt": "2025-06-17T20:07:24.204Z",
+    "createdBy": "admin_default",
+    "description": "Join our Telegram channel to get exclusive updates and bonuses!",
+    "reward": 999999,
+    "title": "Join Telegram Channel",
+    "type": "join_channel",
+    "priority": 1,
+    "requiredCount": 1
+  },
+  "-OVC9E-9cHsjQGpmAo6S": {
+    "active": true,
+    "category": "only start",
+    "createdAt": "2025-07-15T10:20:09.453Z",
+    "createdBy": "admin_default",
+    "description": "Visit the website and stay for 14 seconds to earn UC coins!",
+    "requiredTime": 14,
+    "reward": 10,
+    "title": "Website Visit Timer",
+    "type": "url_timer",
+    "url": "https://login.emaktab.uz/captcha/true/ef7f6614-65ad-43d1-93fd-840034956ca0",
+    "priority": 2,
+    "requiredCount": 1
+  },
+  "-OVC9vcdrupIhHosbDLJ": {
+    "active": true,
+    "category": "Code",
+    "code": "salom23",
+    "createdAt": "2025-07-15T10:23:12.268Z",
+    "createdBy": "admin_default",
+    "description": "Visit the URL and find the secret promo code to earn rewards!",
+    "reward": 100,
+    "title": "Secret Promo Code",
+    "type": "promo_code",
+    "url": "https://dzen.ru/video/watch/636f539607acf23553b285b8?share_to=link",
+    "priority": 3,
+    "requiredCount": 1
+  }
+}

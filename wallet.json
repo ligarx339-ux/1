@@ -1,0 +1,164 @@
+{
+  "wallet": {
+    "categories": {
+      "pubg_mobile": {
+        "id": "pubg_mobile",
+        "name": "PUBG Mobile",
+        "description": "Convert DRX to UC for PUBG Mobile",
+        "image": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+        "active": true,
+        "conversionRate": 1,
+        "minConversion": 60,
+        "maxConversion": 8100,
+        "processingTime": "24-48 hours",
+        "instructions": "Make sure your PUBG Mobile ID is correct. UC will be delivered to your account within 24-48 hours.",
+        "requiredFields": [
+          {
+            "id": "pubg_id",
+            "name": "pubgId",
+            "label": "PUBG Mobile ID",
+            "type": "number",
+            "placeholder": "Enter your PUBG Mobile ID",
+            "required": true,
+            "validation": "^[0-9]+$",
+            "helpText": "Your PUBG Mobile ID can be found in game settings"
+          }
+        ],
+        "packages": [
+          {
+            "id": "uc_60",
+            "name": "60 UC",
+            "amount": 60,
+            "drxCost": 60,
+            "popular": false,
+            "description": "Basic UC package",
+            "image": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "uc_325",
+            "name": "325 UC",
+            "amount": 325,
+            "drxCost": 325,
+            "popular": true,
+            "bonus": 25,
+            "description": "Popular choice with bonus",
+            "image": "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "uc_660",
+            "name": "660 UC",
+            "amount": 660,
+            "drxCost": 660,
+            "popular": false,
+            "description": "Great value package",
+            "image": "https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "uc_1800",
+            "name": "1800 UC",
+            "amount": 1800,
+            "drxCost": 1800,
+            "popular": true,
+            "bonus": 100,
+            "description": "Best value with bonus",
+            "image": "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "uc_3850",
+            "name": "3850 UC",
+            "amount": 3850,
+            "drxCost": 3850,
+            "popular": false,
+            "description": "Premium package",
+            "image": "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "uc_8100",
+            "name": "8100 UC",
+            "amount": 8100,
+            "drxCost": 8100,
+            "popular": false,
+            "bonus": 500,
+            "description": "Ultimate package with huge bonus",
+            "image": "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          }
+        ]
+      },
+      "telegram": {
+        "id": "telegram",
+        "name": "Telegram Stars",
+        "description": "Convert DRX to Telegram Stars",
+        "image": "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+        "active": true,
+        "conversionRate": 10,
+        "minConversion": 100,
+        "maxConversion": 10000,
+        "processingTime": "1-2 hours",
+        "instructions": "Make sure your Telegram username is correct and your profile is public. Stars will be sent to your account.",
+        "requiredFields": [
+          {
+            "id": "telegram_username",
+            "name": "telegramUsername",
+            "label": "Telegram Username",
+            "type": "text",
+            "placeholder": "@username",
+            "required": true,
+            "validation": "^@[a-zA-Z0-9_]{5,32}$",
+            "helpText": "Your Telegram username (make sure your profile is public)"
+          }
+        ],
+        "packages": [
+          {
+            "id": "stars_10",
+            "name": "10 Stars",
+            "amount": 10,
+            "drxCost": 100,
+            "popular": false,
+            "description": "Basic stars package",
+            "image": "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "stars_50",
+            "name": "50 Stars",
+            "amount": 50,
+            "drxCost": 500,
+            "popular": true,
+            "bonus": 5,
+            "description": "Popular choice",
+            "image": "https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "stars_100",
+            "name": "100 Stars",
+            "amount": 100,
+            "drxCost": 1000,
+            "popular": false,
+            "bonus": 10,
+            "description": "Great value",
+            "image": "https://images.pexels.com/photos/1181556/pexels-photo-1181556.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "stars_500",
+            "name": "500 Stars",
+            "amount": 500,
+            "drxCost": 5000,
+            "popular": true,
+            "bonus": 50,
+            "description": "Best value",
+            "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          },
+          {
+            "id": "stars_1000",
+            "name": "1000 Stars",
+            "amount": 1000,
+            "drxCost": 10000,
+            "popular": false,
+            "bonus": 100,
+            "description": "Premium package",
+            "image": "https://images.pexels.com/photos/1181712/pexels-photo-1181712.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+          }
+        ]
+      }
+    }
+  }
+}

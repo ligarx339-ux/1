@@ -1,0 +1,1238 @@
+{
+  "admin_logs": {
+    "fullmalumot": {
+      "1754944363748_373ovqyp0": {
+        "date": "2025-08-11",
+        "details": {
+          "loginType": "automatic_session_restore",
+          "method": "email_password"
+        },
+        "deviceInfo": {
+          "browser": {
+            "name": "Chrome",
+            "version": "139.0.0.0"
+          },
+          "connection": {
+            "downlink": 10,
+            "effectiveType": "4g",
+            "rtt": 200
+          },
+          "cookieEnabled": true,
+          "deviceMemory": 8,
+          "fingerprint": "4870cd62",
+          "hardwareConcurrency": 16,
+          "language": "en-US",
+          "onLine": true,
+          "os": "Windows",
+          "platform": "Win32",
+          "screen": {
+            "colorDepth": 24,
+            "height": 720,
+            "width": 1280
+          },
+          "timestamp": "2025-08-11T20:32:43.349Z",
+          "timezone": "Europe/Moscow",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        },
+        "eventType": "ADMIN_LOGIN_SUCCESS",
+        "networkInfo": {
+          "asn": "AS8193",
+          "city": "Tashkent",
+          "country": "Uzbekistan",
+          "countryCode": "UZ",
+          "ip": "213.230.92.2",
+          "isp": "Uzbektelekom Joint Stock Company",
+          "latitude": 41.26465,
+          "longitude": 69.21627,
+          "postal": "",
+          "region": "Tashkent",
+          "timezone": "Asia/Tashkent"
+        },
+        "sessionInfo": {
+          "referrer": "https://preview-firebase-admin-panel-kzmqeizynhx1w02gten9.vusercontent.net/",
+          "sessionId": "1754943461916k1bg1zoo7",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        },
+        "time": "23:32:43",
+        "timestamp": "2025-08-11T20:32:43.747Z",
+        "user": {
+          "email": "admin-vor@gmail.com",
+          "uid": "xWY34UXMkudIXd8WP941pCHWjRy1"
+        }
+      }
+    }
+  },
+  "config": {
+    "bannerUrl": "https://mining-master.onrender.com//assets/banner-BH8QO14f.png"
+  },
+  "conversions": {
+    "6547102814": {
+      "-OXslF2sPuwEaEt7GsLH": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OXslF2sPuwEaEt7GsLH",
+        "packageType": "60 UC",
+        "requestedAt": 1755453994576,
+        "requiredInfo": {
+          "pubg_id": "1111111"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OXw6uutn1Yu6ATXk4I3": {
+        "amount": 8100,
+        "category": "PUBG Mobile",
+        "convertedAmount": 8100,
+        "fromCurrency": "DRX",
+        "id": "-OXw6uutn1Yu6ATXk4I3",
+        "packageType": "8100 UC",
+        "requestedAt": 1755510269742,
+        "requiredInfo": {
+          "pubg_id": ""
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OXwBZjf7fsQkJx5eVn6": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OXwBZjf7fsQkJx5eVn6",
+        "packageType": "60 UC",
+        "requestedAt": 1755511489616,
+        "requiredInfo": {
+          "pubg_id": ""
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      }
+    }
+  },
+  "history": {
+    "6547102814": {
+      "-OXwMexRZTgRIdEI5mPT": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OXwMexRZTgRIdEI5mPT",
+        "packageType": "60 UC",
+        "requestedAt": 1755514398628,
+        "requiredInfo": {
+          "pubg_id": "1"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OY-SQD5_nZNsngRZb7o": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OY-SQD5_nZNsngRZb7o",
+        "packageType": "60 UC",
+        "requestedAt": 1755583017838,
+        "requiredInfo": {
+          "pubg_id": "1111111"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OYHQ3nlkGIJZSBPvNer": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OYHQ3nlkGIJZSBPvNer",
+        "packageImage": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+        "packageType": "60 UC",
+        "requestedAt": 1755884397852,
+        "requiredInfo": {
+          "pubg_id": "1"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OYHQAGgkBlkzJnCoF8w": {
+        "amount": 1000,
+        "category": "Telegram Stars",
+        "convertedAmount": 100,
+        "fromCurrency": "DRX",
+        "id": "-OYHQAGgkBlkzJnCoF8w",
+        "packageImage": "https://images.pexels.com/photos/1181556/pexels-photo-1181556.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+        "packageType": "100 Stars",
+        "requestedAt": 1755884424343,
+        "requiredInfo": {
+          "telegram_username": "111"
+        },
+        "status": "pending",
+        "toCurrency": "Telegram Stars"
+      },
+      "-OYHQEDw9tvxRagoS0lx": {
+        "amount": 100,
+        "category": "Telegram Stars",
+        "convertedAmount": 10,
+        "fromCurrency": "DRX",
+        "id": "-OYHQEDw9tvxRagoS0lx",
+        "packageImage": "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+        "packageType": "10 Stars",
+        "requestedAt": 1755884440550,
+        "requiredInfo": {
+          "telegram_username": "1"
+        },
+        "status": "pending",
+        "toCurrency": "Telegram Stars"
+      },
+      "-OYHc8czQegsUqcHHsW1": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OYHc8czQegsUqcHHsW1",
+        "packageImage": "https://i.ibb.co/GfgyhNCy/1599546007887-MVe-NUt-B6.png",
+        "packageType": "60 UC",
+        "requestedAt": 1755887825598,
+        "requiredInfo": {
+          "pubg_id": "1111111111111"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OYHcBIi8MzuPRrBks_v": {
+        "amount": 660,
+        "category": "PUBG Mobile",
+        "convertedAmount": 660,
+        "fromCurrency": "DRX",
+        "id": "-OYHcBIi8MzuPRrBks_v",
+        "packageImage": "https://i.ibb.co/TBZb1ndk/1599546041426-W8hm-Er-MS.png",
+        "packageType": "660 UC",
+        "requestedAt": 1755887836526,
+        "requiredInfo": {
+          "pubg_id": "11111111111111111"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      },
+      "-OYHcE1cdCdchLjt4hqV": {
+        "amount": 100,
+        "category": "Telegram Stars",
+        "convertedAmount": 10,
+        "fromCurrency": "DRX",
+        "id": "-OYHcE1cdCdchLjt4hqV",
+        "packageImage": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+        "packageType": "10 Stars",
+        "requestedAt": 1755887847719,
+        "requiredInfo": {
+          "telegram_username": "@test"
+        },
+        "status": "pending",
+        "toCurrency": "Telegram Stars"
+      },
+      "-OYbgfB4xZWKL7t4H-6C": {
+        "amount": 60,
+        "category": "PUBG Mobile",
+        "convertedAmount": 60,
+        "fromCurrency": "DRX",
+        "id": "-OYbgfB4xZWKL7t4H-6C",
+        "packageImage": "https://i.ibb.co/GfgyhNCy/1599546007887-MVe-NUt-B6.png",
+        "packageType": "60 UC",
+        "requestedAt": 1756241339496,
+        "requiredInfo": {
+          "pubg_id": "111"
+        },
+        "status": "pending",
+        "toCurrency": "PUBG Mobile"
+      }
+    }
+  },
+  "missions": {
+    "-OSz3HnagzpKsjgscU3z": {
+      "active": true,
+      "category": "Join",
+      "channelId": "ligarx_boy",
+      "createdAt": "2025-06-17T20:07:24.204Z",
+      "createdBy": "admin_default",
+      "description": "Obuna evasiga soqqa 111111111111111111111111111111111111111111111111111111111111111111",
+      "img": "https://i.pinimg.com/736x/00/cd/8e/00cd8eabf948d596af53e10361a99928.jpg",
+      "reward": 999999,
+      "title": "slaom",
+      "type": "join_channel"
+    },
+    "-OVC9E-9cHsjQGpmAo6S": {
+      "active": true,
+      "category": "only start",
+      "createdAt": "2025-07-15T10:20:09.453Z",
+      "createdBy": "admin_default",
+      "description": "Only start va mokofot",
+      "requiredTime": 14,
+      "reward": 10,
+      "title": "Only start",
+      "type": "url_timer",
+      "url": "https://login.emaktab.uz/captcha/true/ef7f6614-65ad-43d1-93fd-840034956ca0"
+    },
+    "-OVC9vcdrupIhHosbDLJ": {
+      "active": true,
+      "category": "Code",
+      "code": "salom23",
+      "createdAt": "2025-07-15T10:23:12.268Z",
+      "createdBy": "admin_default",
+      "description": "urlga otish va code",
+      "reward": 100,
+      "title": "code",
+      "type": "promo_code",
+      "url": "https://dzen.ru/video/watch/636f539607acf23553b285b8?share_to=link"
+    }
+  },
+  "referrals": {
+    "6547102814": {
+      "count": 4,
+      "referrals": {
+        "5980911365": {
+          "avatarUrl": "https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/photos/file_11.jpg",
+          "date": "2025-06-19T14:36:24.426972+00:00",
+          "earned": 10,
+          "firstName": "Nazarqulov Temurxon",
+          "lastName": "₁₉:₃₆"
+        },
+        "6400983585": {
+          "avatarUrl": "https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/photos/file_7.jpg",
+          "date": "2025-06-17T20:17:42.420053+00:00",
+          "earned": 15,
+          "firstName": "Asʟɪᴅᴅɪɴ",
+          "lastName": ""
+        },
+        "6930610463": {
+          "avatarUrl": "https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/photos/file_8.jpg",
+          "date": "2025-06-17T22:20:29.990Z",
+          "earned": 15,
+          "firstName": "LIGARXBOY",
+          "lastName": ""
+        },
+        "7002467810": {
+          "avatarUrl": "https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/https://api.telegram.org/file/bot7424431155:AAHxEaXkbJNcP35sqGvJn3NMEuJXkb5BMWw/photos/file_9.jpg",
+          "date": "2025-06-17T20:26:29.629708+00:00",
+          "earned": 15,
+          "firstName": "ᴬᴹᴼᴿ 🖤",
+          "lastName": ""
+        }
+      },
+      "totalUC": 55
+    },
+    "user123": {
+      "count": 29,
+      "referrals": {
+        "67876": {
+          "avatarUrl": "",
+          "date": "2025-06-05T18:35:52.614Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "davronov"
+        },
+        "777877": {
+          "avatarUrl": "blob:https://web.telegram.org/3cf2eb54-7622-4703-bb33-cc0e886f3e9a",
+          "date": "2025-06-11T10:16:04.297Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "davronov"
+        },
+        "11234567": {
+          "avatarUrl": "",
+          "date": "2025-06-05T18:24:09.937Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "davronov"
+        },
+        "77778787": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-08T03:31:36.385Z",
+          "earned": 15,
+          "firstName": "Asliddin",
+          "lastName": "Vorzakon"
+        },
+        "1c6a6952-5b30-4370-9f9d-21ecc1ffde34": {
+          "avatarUrl": "",
+          "date": "2025-06-22T09:32:07.858Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "",
+          "timestamp": 1750584727858
+        },
+        "39cef52f-7a63-4d73-b8d7-3c5442be4156": {
+          "avatarUrl": "",
+          "date": "2025-06-22T07:22:25.378Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "",
+          "timestamp": 1750576945378
+        },
+        "7hhhhhhhh9j": {
+          "avatarUrl": "",
+          "date": 1751865494032,
+          "earned": 15,
+          "firstName": "User",
+          "lastName": ""
+        },
+        "asliddin": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-09T14:28:29.042Z",
+          "earned": 15,
+          "firstName": "Anonymous",
+          "lastName": "Yusuf"
+        },
+        "testtttyshg": {
+          "avatarUrl": "",
+          "date": "2025-06-11T10:12:20.703Z",
+          "earned": 15,
+          "firstName": "v1",
+          "lastName": "gasalom"
+        },
+        "user1231": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-10T19:22:31.834Z",
+          "earned": 15,
+          "firstName": "Anonymous",
+          "lastName": "Yusuf"
+        },
+        "user123123434": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-09T14:59:37.974Z",
+          "earned": 15,
+          "firstName": "Anonymous",
+          "lastName": "Yusuf"
+        },
+        "user1231234341": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-09T15:00:17.519Z",
+          "earned": 15,
+          "firstName": "Yusufbek",
+          "lastName": "Yusuf"
+        },
+        "user1231rg234341": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-09T15:01:23.142Z",
+          "earned": 15,
+          "firstName": "Yusufbek",
+          "lastName": "Yusuf"
+        },
+        "user12356": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-12T14:14:39.518Z",
+          "earned": 15,
+          "firstName": "Anonymous",
+          "lastName": "Yusuf"
+        },
+        "user12366898788767887": {
+          "avatarUrl": "",
+          "date": "2025-06-05T18:38:24.941Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "Diljjjjj"
+        },
+        "user5476754622": {
+          "avatarUrl": "",
+          "date": "2025-07-29T18:59:18.758Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": ""
+        },
+        "yusu1f": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-07T07:07:07.658Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "Yusuf"
+        },
+        "yusuf": {
+          "avatarUrl": "https://i.ibb.co/0ykRqdBD/image.jpg",
+          "date": "2025-06-07T07:03:09.059Z",
+          "earned": 15,
+          "firstName": "User",
+          "lastName": "Yusuf"
+        }
+      },
+      "totalUC": 435
+    },
+    "user123123434": {
+      "count": 1,
+      "referrals": {
+        "user1231rg234341dfdf": {
+          "avatarUrl": "https://example.com/avatar.jpg",
+          "date": "2025-06-09T15:01:56.951Z",
+          "earned": 15,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      },
+      "totalUC": 15
+    },
+    "user123683s": {
+      "friends": {
+        "ahshshsh": {
+          "avatarUrl": "",
+          "bonusAwarded": 5,
+          "firstName": "Amor",
+          "joinedAt": 1750495186562,
+          "lastName": "Vorzakon",
+          "status": "active",
+          "userId": "ahshshsh"
+        }
+      }
+    }
+  },
+  "securityLogs": {
+    "-OVL-zGqmtA48TmLpnBV": {
+      "details": {
+        "code": "auth/configuration-not-found",
+        "error": "Firebase: Error (auth/configuration-not-found)."
+      },
+      "deviceInfo": {
+        "browser": {
+          "name": "Chrome",
+          "version": "138.0.0.0"
+        },
+        "cookieEnabled": true,
+        "language": "en-US",
+        "onLine": true,
+        "os": "Windows",
+        "platform": "Win32",
+        "screen": {
+          "colorDepth": 24,
+          "height": 720,
+          "width": 1280
+        },
+        "timestamp": "2025-07-17T03:36:24.152Z",
+        "timezone": "Europe/Moscow",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "eventType": "AUTH_FAILED",
+      "fingerprint": "464aea3f",
+      "networkInfo": {
+        "asn": "AS8193",
+        "city": "Tashkent",
+        "country": "Uzbekistan",
+        "countryCode": "UZ",
+        "ip": "84.54.70.19",
+        "isp": "Uzbektelekom Joint Stock Company",
+        "latitude": 41.2615,
+        "longitude": 69.2177,
+        "region": "Tashkent",
+        "timezone": "Asia/Tashkent"
+      },
+      "sessionId": "17527233547290.fbw6uzm98yn",
+      "timestamp": "2025-07-17T03:36:24.485Z"
+    },
+    "-OVLS4qMB2YDlVs5D8z9": {
+      "details": {
+        "code": "auth/configuration-not-found",
+        "error": "Firebase: Error (auth/configuration-not-found)."
+      },
+      "deviceInfo": {
+        "browser": {
+          "name": "Chrome",
+          "version": "138.0.0.0"
+        },
+        "cookieEnabled": true,
+        "language": "en-US",
+        "onLine": true,
+        "os": "Windows",
+        "platform": "Win32",
+        "screen": {
+          "colorDepth": 24,
+          "height": 720,
+          "width": 1280
+        },
+        "timestamp": "2025-07-17T03:36:21.325Z",
+        "timezone": "Europe/Moscow",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      "eventType": "AUTH_FAILED",
+      "fingerprint": "464aea3f",
+      "networkInfo": {
+        "asn": "AS8193",
+        "city": "Tashkent",
+        "country": "Uzbekistan",
+        "countryCode": "UZ",
+        "ip": "84.54.70.19",
+        "isp": "Uzbektelekom Joint Stock Company",
+        "latitude": 41.2615,
+        "longitude": 69.2177,
+        "region": "Tashkent",
+        "timezone": "Asia/Tashkent"
+      },
+      "sessionId": "17527233547290.fbw6uzm98yn",
+      "timestamp": "2025-07-17T03:36:21.650Z"
+    }
+  },
+  "userMissions": {
+    "123": {
+      "-OSz3HnagzpKsjgscU3z": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1752754220071,
+        "started": true,
+        "startedDate": 1752754220071
+      },
+      "-OVC9E-9cHsjQGpmAo6S": {
+        "claimed": true,
+        "claimedAt": 1752754229776,
+        "completed": true,
+        "completedAt": 1752754225075,
+        "currentCount": 1,
+        "lastVerifyAttempt": 1752754207136,
+        "started": true,
+        "startedDate": 1752754207136,
+        "timerStarted": 1752754207191
+      },
+      "-OVC9vcdrupIhHosbDLJ": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1752754225193,
+        "started": true,
+        "startedDate": 1752754225193
+      }
+    },
+    "2fevdv": {
+      "-OVC9vcdrupIhHosbDLJ": {
+        "claimed": true,
+        "claimedAt": 1752727614714,
+        "codeSubmitted": "salom23",
+        "completed": true,
+        "completedAt": 1752727611158,
+        "currentCount": 1,
+        "lastVerifyAttempt": 1752727534857,
+        "started": true,
+        "startedDate": 1752727534857
+      }
+    },
+    "6547102814": {
+      "-OSz3HnagzpKsjgscU3z": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1756125379782,
+        "started": true,
+        "startedDate": 1756125379782
+      },
+      "-OVC9E-9cHsjQGpmAo6S": {
+        "claimed": true,
+        "claimedAt": 1754987331226,
+        "completed": true,
+        "completedAt": 1754987327675,
+        "currentCount": 1,
+        "lastVerifyAttempt": 1754985745173,
+        "started": true,
+        "startedDate": 1754985745173,
+        "timerStarted": 1754985745211
+      },
+      "-OVC9vcdrupIhHosbDLJ": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1755013915539,
+        "started": true,
+        "startedDate": 1755013915539
+      }
+    },
+    "6930610463": {
+      "-OSz3HnagzpKsjgscU3z": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1755342975604,
+        "started": true,
+        "startedDate": 1755342975604
+      },
+      "-OVC9E-9cHsjQGpmAo6S": {
+        "claimed": true,
+        "claimedAt": 1755343849717,
+        "completed": true,
+        "completedAt": 1755343847230,
+        "currentCount": 1,
+        "lastVerifyAttempt": 1755343025611,
+        "started": true,
+        "startedDate": 1755343025611,
+        "timerStarted": 1755343025625
+      },
+      "-OVC9vcdrupIhHosbDLJ": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1755343037344,
+        "started": true,
+        "startedDate": 1755343037344
+      }
+    },
+    "user123": {
+      "-OSz3HnagzpKsjgscU3z": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "date": "2025-07-15T11:45:52.264Z",
+        "lastVerifyAttempt": 1752579965624,
+        "started": true,
+        "startedDate": 1752579952264
+      },
+      "-OVC9E-9cHsjQGpmAo6S": {
+        "claimed": true,
+        "claimedAt": 1752724416040,
+        "completed": true,
+        "completedAt": 1752724413933
+      },
+      "-OVC9vcdrupIhHosbDLJ": {
+        "claimed": false,
+        "completed": false,
+        "currentCount": 0,
+        "lastVerifyAttempt": 1752726246587,
+        "started": true,
+        "startedDate": 1752726246587
+      }
+    }
+  },
+  "users": {
+    "6547102814": {
+      "authKey": "c070cba46851c9822e73245ebdf8ce39c76e342e0f9524e64ab2950ddbcd567647ce15",
+      "avatarUrl": "https://www.shutterstock.com/image-vector/elevate-your-brand-strong-hacker-260nw-2259401771.jpg",
+      "balance": 1541.4669484059964,
+      "bonusClaimed": true,
+      "boosts": {
+        "energyLevel": 4,
+        "multiTapLevel": 1,
+        "rechargeLevel": 1
+      },
+      "combo": 11,
+      "conversions": [
+        {
+          "amount": 60,
+          "category": "PUBG Mobile",
+          "convertedAmount": 60,
+          "fromCurrency": "DRX",
+          "id": "-OXwBZjf7fsQkJx5eVn6",
+          "packageType": "60 UC",
+          "requestedAt": 1755511489821,
+          "requiredInfo": {
+            "pubg_id": ""
+          },
+          "status": "pending",
+          "toCurrency": "PUBG Mobile"
+        },
+        {
+          "amount": 60,
+          "category": "PUBG Mobile",
+          "convertedAmount": 60,
+          "fromCurrency": "DRX",
+          "id": "-OXslF2sPuwEaEt7GsLH",
+          "packageType": "60 UC",
+          "requestedAt": 1755453994798,
+          "requiredInfo": {
+            "pubg_id": "1111111"
+          },
+          "status": "pending",
+          "toCurrency": "PUBG Mobile"
+        }
+      ],
+      "dataInitialized": true,
+      "energyLimit": 2000,
+      "firstName": "</>",
+      "id": "6547102814",
+      "isMining": false,
+      "isReturningUser": true,
+      "joinedAt": 1753126369,
+      "lastActive": 1756241339719,
+      "lastClaimTime": 1756145692166,
+      "lastJackpotTime": 1755066603876,
+      "lastName": "",
+      "lastTapTime": 1755349460645,
+      "level": 3,
+      "minClaimTime": 60,
+      "miningRate": 0.001,
+      "miningStartTime": 0,
+      "multiTapValue": 1,
+      "pendingRewards": 0,
+      "pubgId": "111111",
+      "rechargingSpeed": 1,
+      "referralCount": 0,
+      "referredBy": "",
+      "settings": {
+        "notifications": false,
+        "sound": false,
+        "vibration": false
+      },
+      "status": "active",
+      "streak": 10,
+      "tapBotActive": false,
+      "tapBotPurchased": false,
+      "tapsLeft": 1749,
+      "totalEarned": 469.46694840598695,
+      "totalTaps": 2307,
+      "ucBalance": 0,
+      "withdrawals": [
+        {
+          "amount": 60,
+          "packageType": "60 UC",
+          "pubgId": "111111",
+          "requestedAt": 1754984426221,
+          "status": "pending",
+          "txId": 1
+        }
+      ],
+      "xp": 2637
+    },
+    "6930610463": {
+      "authKey": "60d7213e7ad7f5ead00eae1f544d633a3bf1bdfaf86be57d9930e86145fa97a47c9e6c",
+      "avatarUrl": "https://yourdomain.com/avatars/6930610463.png",
+      "balance": 20,
+      "bonusClaimed": true,
+      "boosts": {
+        "energyLevel": 1,
+        "multiTapLevel": 1,
+        "rechargeLevel": 1
+      },
+      "combo": 0,
+      "dataInitialized": true,
+      "energyLimit": 500,
+      "firstName": "Yusufbek",
+      "id": "6930610463",
+      "isReturningUser": true,
+      "joinedAt": 1753181216,
+      "lastActive": 1755343849929,
+      "lastJackpotTime": 0,
+      "lastName": "",
+      "lastTapTime": 0,
+      "level": 1,
+      "multiTapValue": 1,
+      "pubgId": "",
+      "rechargingSpeed": 1,
+      "referralCount": 0,
+      "referredBy": "",
+      "settings": {
+        "notifications": true,
+        "sound": true,
+        "vibration": true
+      },
+      "status": "active",
+      "streak": 0,
+      "tapBotActive": false,
+      "tapBotPurchased": false,
+      "tapsLeft": 500,
+      "totalEarned": 20,
+      "totalTaps": 0,
+      "xp": 0
+    },
+    "8113332913": {
+      "authKey": "9d4fedd6b9c819e23a73b10610d41c12848eee507a447092d2f0cb5b959d769611a53f",
+      "avatarUrl": "https://yourdomain.com/avatars/8113332913.png",
+      "firstName": "StackNest",
+      "id": "8113332913",
+      "joinedAt": 1753131026,
+      "lastActive": 1753131026,
+      "lastName": ""
+    },
+    "user123": {
+      "authKey": "default_auth_key_for_dev",
+      "avatarUrl": "",
+      "balance": 0,
+      "bonusClaimed": true,
+      "boosts": {
+        "claimTimeLevel": 1,
+        "miningRateLevel": 1,
+        "miningSpeedLevel": 2
+      },
+      "combo": 0,
+      "dataInitialized": true,
+      "energyLimit": 500,
+      "firstName": "User",
+      "id": "user123",
+      "isMining": false,
+      "isReturningUser": true,
+      "joinedAt": 1755508151880,
+      "lastActive": 1756240727168,
+      "lastClaimTime": 0,
+      "lastJackpotTime": 0,
+      "lastName": "",
+      "lastTapTime": 0,
+      "level": 1,
+      "minClaimTime": 300,
+      "miningRate": 0.0012,
+      "miningStartTime": 0,
+      "multiTapValue": 1,
+      "pendingRewards": 0,
+      "pubgId": "",
+      "rechargingSpeed": 1,
+      "referralCount": 0,
+      "referredBy": "",
+      "settings": {
+        "notifications": true,
+        "sound": true,
+        "vibration": true
+      },
+      "status": "active",
+      "streak": 0,
+      "tapBotActive": false,
+      "tapBotPurchased": false,
+      "totalEarned": 100,
+      "totalTaps": 0,
+      "ucBalance": 0,
+      "xp": 0
+    },
+    "user54767546": {
+      "avatarUrl": "",
+      "balance": 100.06899999999996,
+      "bonusClaimed": true,
+      "boosts": {
+        "energyLevel": 1,
+        "multiTapLevel": 1,
+        "rechargeLevel": 1
+      },
+      "combo": 8,
+      "dataInitialized": true,
+      "energyLimit": 500,
+      "firstName": "User",
+      "id": "user54767546",
+      "isReturningUser": true,
+      "joinedAt": 1753815517850,
+      "lastActive": 1753815536285,
+      "lastJackpotTime": 0,
+      "lastName": "",
+      "lastTapTime": 1753815535695,
+      "level": 1,
+      "multiTapValue": 1,
+      "pubgId": "",
+      "rechargingSpeed": 1,
+      "referralCount": 0,
+      "referredBy": "",
+      "settings": {
+        "notifications": true,
+        "sound": true,
+        "vibration": true
+      },
+      "status": "active",
+      "streak": 41,
+      "tapBotActive": false,
+      "tapBotPurchased": false,
+      "tapsLeft": 464,
+      "totalEarned": 100.06899999999996,
+      "totalTaps": 43,
+      "xp": 43
+    },
+    "user5476754622": {
+      "avatarUrl": "",
+      "balance": 100.0839999999999,
+      "bonusClaimed": true,
+      "boosts": {
+        "energyLevel": 1,
+        "multiTapLevel": 1,
+        "rechargeLevel": 1
+      },
+      "combo": 43,
+      "dataInitialized": true,
+      "energyLimit": 500,
+      "firstName": "User",
+      "id": "user5476754622",
+      "isReturningUser": false,
+      "joinedAt": 1753815557616,
+      "lastActive": 1753815575091,
+      "lastJackpotTime": 0,
+      "lastName": "",
+      "lastTapTime": 1753815574493,
+      "level": 1,
+      "multiTapValue": 1,
+      "pubgId": "",
+      "rechargingSpeed": 1,
+      "referralCount": 0,
+      "referredBy": "user123",
+      "settings": {
+        "notifications": true,
+        "sound": true,
+        "vibration": true
+      },
+      "status": "active",
+      "streak": 42,
+      "tapBotActive": false,
+      "tapBotPurchased": false,
+      "tapsLeft": 462,
+      "totalEarned": 100.0839999999999,
+      "totalTaps": 43,
+      "xp": 43
+    },
+    "user6547102814": {
+      "authKey": "44f8d7ae03a8a156ebbd0e459440546deacd",
+      "avatarUrl": "https://yourdomain.com/avatars/user6547102814_h9x0fh0m6q.jpg",
+      "firstName": "</>",
+      "id": "user6547102814",
+      "joinedAt": 1753125306,
+      "lastActive": 1753125537,
+      "lastName": ""
+    },
+    "user6930610463": {
+      "authKey": "725ce23101d9107d98fc9ae29f69fd2d",
+      "avatarUrl": "https://yourdomain.com/avatars/user6930610463_sb6a3l6jdb.jpg",
+      "firstName": "Yusufbek",
+      "id": "user6930610463",
+      "isReturningUser": false,
+      "joinedAt": 1753346796700,
+      "lastName": "",
+      "referredBy": ""
+    },
+    "user_1754944351964_obth3hrbz": {
+      "balance": 1,
+      "createdAt": "2025-08-11T20:32:31.964Z",
+      "email": "a",
+      "energyLimit": 500,
+      "firstName": "a",
+      "lastActive": "2025-08-11T20:32:31.964Z",
+      "lastName": "a",
+      "multiTap": 1,
+      "rechargingSpeed": 1,
+      "referralCount": 99999999,
+      "status": "active",
+      "totalTaps": 1
+    }
+  },
+  "wallet": {
+    "categories": {
+      "pubg_mobile": {
+        "active": true,
+        "conversionRate": 1,
+        "description": "Convert DRX to UC for PUBG Mobile",
+        "id": "pubg_mobile",
+        "image": "https://i.ibb.co/60fDXMV8/pubgm-app-icon-512x512-1-e9f7efc0.png",
+        "instructions": "Make sure your PUBG Mobile ID is correct. UC will be delivered to your account within 24-48 hours.",
+        "maxConversion": 8100,
+        "minConversion": 60,
+        "name": "PUBG Mobile",
+        "packages": [
+          {
+            "amount": 60,
+            "description": "Basic UC package",
+            "drxCost": 60,
+            "id": "uc_60",
+            "image": "https://i.ibb.co/GfgyhNCy/1599546007887-MVe-NUt-B6.png",
+            "name": "60 UC",
+            "popular": false
+          },
+          {
+            "amount": 325,
+            "bonus": 25,
+            "description": "Popular choice with bonus",
+            "drxCost": 325,
+            "id": "uc_325",
+            "image": "https://i.ibb.co/1g83YH9/1599546030876-PIvqw-Gaa.png",
+            "name": "325 UC",
+            "popular": true
+          },
+          {
+            "amount": 660,
+            "description": "Great value package",
+            "drxCost": 660,
+            "id": "uc_660",
+            "image": "https://i.ibb.co/TBZb1ndk/1599546041426-W8hm-Er-MS.png",
+            "name": "660 UC",
+            "popular": false
+          },
+          {
+            "amount": 1800,
+            "bonus": 100,
+            "description": "Best value with bonus",
+            "drxCost": 1800,
+            "id": "uc_1800",
+            "image": "https://i.ibb.co/svwxRf4c/1599546052747-L5g-Su7-VB.png",
+            "name": "1800 UC",
+            "popular": true
+          },
+          {
+            "amount": 3850,
+            "description": "Premium package",
+            "drxCost": 3850,
+            "id": "uc_3850",
+            "image": "https://i.ibb.co/hFq5xFr9/1599546071746-Kqk-Ihrz-G.png",
+            "name": "3850 UC",
+            "popular": false
+          },
+          {
+            "amount": 8100,
+            "bonus": 500,
+            "description": "Ultimate package with huge bonus",
+            "drxCost": 8100,
+            "id": "uc_8100",
+            "image": "https://i.ibb.co/hFq5xFr9/1599546071746-Kqk-Ihrz-G.png",
+            "name": "8100 UC",
+            "popular": false
+          }
+        ],
+        "processingTime": "24-48 hours",
+        "requiredFields": [
+          {
+            "helpText": "Your PUBG Mobile ID can be found in game settings",
+            "id": "pubg_id",
+            "label": "PUBG Mobile ID",
+            "name": "pubgId",
+            "placeholder": "Enter your PUBG Mobile ID",
+            "required": true,
+            "type": "number",
+            "validation": "^[0-9]+$"
+          }
+        ]
+      },
+      "telegram": {
+        "active": true,
+        "conversionRate": 10,
+        "description": "Convert DRX to Telegram Stars",
+        "id": "telegram",
+        "image": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+        "instructions": "Make sure your Telegram username is correct and your profile is public. Stars will be sent to your account.",
+        "maxConversion": 10000,
+        "minConversion": 100,
+        "name": "Telegram Stars",
+        "packages": [
+          {
+            "amount": 10,
+            "description": "Basic stars package",
+            "drxCost": 100,
+            "id": "stars_10",
+            "image": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+            "name": "10 Stars",
+            "popular": false
+          },
+          {
+            "amount": 50,
+            "bonus": 5,
+            "description": "Popular choice",
+            "drxCost": 500,
+            "id": "stars_50",
+            "image": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+            "name": "50 Stars",
+            "popular": true
+          },
+          {
+            "amount": 100,
+            "bonus": 10,
+            "description": "Great value",
+            "drxCost": 1000,
+            "id": "stars_100",
+            "image": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+            "name": "100 Stars",
+            "popular": false
+          },
+          {
+            "amount": 500,
+            "bonus": 50,
+            "description": "Best value",
+            "drxCost": 5000,
+            "id": "stars_500",
+            "image": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+            "name": "500 Stars",
+            "popular": true
+          },
+          {
+            "amount": 1000,
+            "bonus": 100,
+            "description": "Premium package",
+            "drxCost": 10000,
+            "id": "stars_1000",
+            "image": "https://i.ibb.co/tMSTSQHf/images-3.jpg",
+            "name": "1000 Stars",
+            "popular": false
+          }
+        ],
+        "processingTime": "1-2 hours",
+        "requiredFields": [
+          {
+            "helpText": "Your Telegram username (make sure your profile is public)",
+            "id": "telegram_username",
+            "label": "Telegram Username",
+            "name": "telegramUsername",
+            "placeholder": "@username",
+            "required": true,
+            "type": "text",
+            "validation": "^@[a-zA-Z0-9_]{5,32}$"
+          }
+        ]
+      }
+    }
+  },
+  "withdrawals": {
+    "6547102814": [
+      null,
+      {
+        "amount": 60,
+        "packageType": "60 UC",
+        "pubgId": "111111",
+        "requestedAt": 1754984426020,
+        "status": "pending",
+        "withdrawalNum": 1
+      }
+    ],
+    "6547102815": {
+      "amount": 60,
+      "packageType": "60 UC",
+      "pubgId": "1",
+      "requestedAt": 1754987891315,
+      "status": "pending",
+      "withdrawalNum": 6547102815
+    },
+    "user123": [
+      null,
+      {
+        "amount": 60,
+        "packageType": "60 UC",
+        "pubgId": "1",
+        "requestedAt": 1751657582883,
+        "status": "approved",
+        "withdrawalNum": 1
+      },
+      {
+        "amount": 1800,
+        "packageType": "1800 UC",
+        "pubgId": "1",
+        "requestedAt": 1751657664271,
+        "status": "approved",
+        "withdrawalNum": 2
+      },
+      {
+        "amount": 60,
+        "packageType": "60 UC",
+        "pubgId": "1",
+        "requestedAt": 1752575191002,
+        "status": "approved",
+        "withdrawalNum": 3
+      },
+      {
+        "amount": 60,
+        "packageType": "60 UC",
+        "pubgId": "122",
+        "requestedAt": 1752793005264,
+        "status": "pending",
+        "withdrawalNum": 4
+      },
+      {
+        "amount": 325,
+        "packageType": "325 UC",
+        "pubgId": "122",
+        "requestedAt": 1752793018874,
+        "status": "pending",
+        "withdrawalNum": 5
+      },
+      {
+        "amount": 60,
+        "packageType": "60 UC",
+        "pubgId": "122",
+        "requestedAt": 1752846049757,
+        "status": "pending",
+        "withdrawalNum": 6
+      },
+      {
+        "amount": 60,
+        "packageType": "60 UC",
+        "pubgId": "1",
+        "requestedAt": 1753815826572,
+        "status": "pending",
+        "withdrawalNum": 7
+      }
+    ]
+  }
+}

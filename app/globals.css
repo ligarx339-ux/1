@@ -1,0 +1,1001 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Enhanced Custom Styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+  touch-action: manipulation;
+}
+
+body {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding-bottom: 120px; /* Increased bottom padding for larger navigation */
+  background: linear-gradient(135deg, #0a0a1a 0%, #121220 50%, #0e1425 100%); /* Darker, more subtle gradient */
+  position: relative;
+  touch-action: manipulation;
+}
+
+/* Subtle background noise/texture */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm10 10v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm10 10v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 50v-4h-2v4H0v2h2v4h4v-4h2v-2H6zm0 0v-4h-2v4H0v2h2v4h4v-4h2v-2H6zM16 16v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Prevent zoom on double tap */
+* {
+  touch-action: manipulation;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  body {
+    font-size: 13px;
+    padding-bottom: 130px; /* Space for bottom navigation */
+  }
+  
+  .container {
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    padding-bottom: 70px; /* Space for bottom navigation */
+  }
+  
+  .container {
+    padding: 0 6px;
+  }
+}
+
+/* Large screen optimizations */
+@media (min-width: 1024px) {
+  .main-container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  
+  body {
+    padding-bottom: 150px;
+  }
+}
+
+/* Enhanced responsive breakpoints for height - starting from 750px */
+@media (min-height: 750px) {
+  .min-h-\[750px\]\:block {
+    display: block !important;
+  }
+  
+  .min-h-\[750px\]\:hidden {
+    display: none !important;
+  }
+  
+  .min-h-\[750px\]\:pt-\[4vh\] {
+    padding-top: 4vh !important;
+  }
+  
+  .min-h-\[750px\]\:mb-6 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .min-h-\[750px\]\:w-\[75vw\] {
+    width: 75vw !important;
+  }
+  
+  .min-h-\[750px\]\:h-\[75vw\] {
+    height: 75vw !important;
+  }
+  
+  .min-h-\[750px\]\:max-w-\[350px\] {
+    max-width: 350px !important;
+  }
+  
+  .min-h-\[750px\]\:max-h-\[350px\] {
+    max-height: 350px !important;
+  }
+  
+  .min-h-\[750px\]\:text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .min-h-\[750px\]\:text-base {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+  }
+}
+
+/* Enhanced responsive breakpoints for height */
+@media (min-height: 800px) {
+  .min-h-\[800px\]\:block {
+    display: block !important;
+  }
+  
+  .min-h-\[800px\]\:hidden {
+    display: none !important;
+  }
+  
+  .min-h-\[800px\]\:pt-\[6vh\] {
+    padding-top: 6vh !important;
+  }
+  
+  .min-h-\[800px\]\:mb-8 {
+    margin-bottom: 2rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-\[80vw\] {
+    width: 80vw !important;
+  }
+  
+  .min-h-\[800px\]\:h-\[80vw\] {
+    height: 80vw !important;
+  }
+  
+  .min-h-\[800px\]\:max-w-\[450px\] {
+    max-width: 450px !important;
+  }
+  
+  .min-h-\[800px\]\:max-h-\[450px\] {
+    max-height: 450px !important;
+  }
+  
+  .min-h-\[800px\]\:text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+  
+  .min-h-\[800px\]\:text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .min-h-\[800px\]\:text-base {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-12 {
+    width: 3rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-12 {
+    height: 3rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-14 {
+    width: 3.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-14 {
+    height: 3.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-7 {
+    width: 1.75rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-7 {
+    height: 1.75rem !important;
+  }
+  
+  .min-h-\[800px\]\:p-4 {
+    padding: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:p-5 {
+    padding: 1.25rem !important;
+  }
+  
+  .min-h-\[800px\]\:mt-4 {
+    margin-top: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:mb-5 {
+    margin-bottom: 1.25rem !important;
+  }
+  
+  .min-h-\[800px\]\:gap-5 {
+    gap: 1.25rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-4 {
+    width: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-4 {
+    height: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-5 {
+    width: 1.25rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-5 {
+    height: 1.25rem !important;
+  }
+  
+  .min-h-\[800px\]\:max-w-\[80px\] {
+    max-width: 5rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-\[80%\] {
+    width: 80% !important;
+  }
+  
+  .min-h-\[800px\]\:gap-4 {
+    gap: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:mb-4 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:mb-6 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-\[calc\(100\%-2rem\)\] {
+    width: calc(100% - 2rem) !important;
+  }
+  
+  .min-h-\[800px\]\:max-w-\[600px\] {
+    max-width: 37.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:min-h-\[100px\] {
+    min-height: 6.25rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-4 {
+    height: 1rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-2 {
+    width: 0.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-2 {
+    height: 0.5rem !important;
+  }
+  
+  .min-h-\[800px\]\:w-3 {
+    width: 0.75rem !important;
+  }
+  
+  .min-h-\[800px\]\:h-3 {
+    height: 0.75rem !important;
+  }
+}
+
+@media (min-height: 900px) {
+  .lg\:min-h-\[900px\]\:block {
+    display: block !important;
+  }
+  
+  .lg\:min-h-\[900px\]\:hidden {
+    display: none !important;
+  }
+  
+  .min-h-\[900px\]\:pt-\[8vh\] {
+    padding-top: 8vh !important;
+  }
+  
+  .min-h-\[900px\]\:mb-12 {
+    margin-bottom: 3rem !important;
+  }
+  
+  .min-h-\[900px\]\:max-w-\[550px\] {
+    max-width: 34.375rem !important;
+  }
+  
+  .min-h-\[900px\]\:max-h-\[550px\] {
+    max-height: 34.375rem !important;
+  }
+  
+  .min-h-\[900px\]\:text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+  
+  .min-h-\[900px\]\:text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+  
+  .min-h-\[900px\]\:text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .min-h-\[900px\]\:text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .min-h-\[900px\]\:w-16 {
+    width: 4rem !important;
+  }
+  
+  .min-h-\[900px\]\:h-16 {
+    height: 4rem !important;
+  }
+  
+  .min-h-\[900px\]\:w-8 {
+    width: 2rem !important;
+  }
+  
+  .min-h-\[900px\]\:h-8 {
+    height: 2rem !important;
+  }
+  
+  .min-h-\[900px\]\:p-6 {
+    padding: 1.5rem !important;
+  }
+  
+  .min-h-\[900px\]\:p-5 {
+    padding: 1.25rem !important;
+  }
+  
+  .min-h-\[900px\]\:p-4 {
+    padding: 1rem !important;
+  }
+  
+  .min-h-\[900px\]\:mt-5 {
+    margin-top: 1.25rem !important;
+  }
+  
+  .min-h-\[900px\]\:mb-6 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .min-h-\[900px\]\:mb-8 {
+    margin-bottom: 2rem !important;
+  }
+  
+  .min-h-\[900px\]\:gap-6 {
+    gap: 1.5rem !important;
+  }
+  
+  .min-h-\[900px\]\:w-\[75%\] {
+    width: 75% !important;
+  }
+  
+  .min-h-\[900px\]\:w-\[calc\(100\%-3rem\)\] {
+    width: calc(100% - 3rem) !important;
+  }
+  
+  .min-h-\[900px\]\:max-w-\[700px\] {
+    max-width: 43.75rem !important;
+  }
+  
+  .min-h-\[900px\]\:min-h-\[120px\] {
+    min-height: 7.5rem !important;
+  }
+  
+  .min-h-\[900px\]\:h-5 {
+    height: 1.25rem !important;
+  }
+  
+  .min-h-\[900px\]\:w-2\.5 {
+    width: 0.625rem !important;
+  }
+  
+  .min-h-\[900px\]\:h-2\.5 {
+    height: 0.625rem !important;
+  }
+  
+  .min-h-\[900px\]\:w-4 {
+    width: 1rem !important;
+  }
+  
+  .min-h-\[900px\]\:h-4 {
+    height: 1rem !important;
+  }
+  
+  .min-h-\[900px\]\:max-w-\[90px\] {
+    max-width: 5.625rem !important;
+  }
+  
+  .min-h-\[900px\]\:text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+}
+
+@media (min-height: 1000px) {
+  .min-h-\[1000px\]\:pt-\[10vh\] {
+    padding-top: 10vh !important;
+  }
+  
+  .min-h-\[1000px\]\:mb-16 {
+    margin-bottom: 4rem !important;
+  }
+  
+  .min-h-\[1000px\]\:max-w-\[650px\] {
+    max-width: 40.625rem !important;
+  }
+  
+  .min-h-\[1000px\]\:max-h-\[650px\] {
+    max-height: 40.625rem !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-container {
+    max-width: 480px;
+    padding-top: 3rem;
+  }
+}
+
+/* Mobile-first responsive improvements */
+@media (max-width: 414px) {
+  body {
+    font-size: 11px;
+    padding-bottom: 75px;
+  }
+  
+  .main-container {
+    padding: 0 6px;
+  }
+  
+  /* Smaller text and spacing for Galaxy S8 and similar */
+  .text-base { font-size: 0.875rem; }
+  .text-lg { font-size: 1rem; }
+  .text-xl { font-size: 1.125rem; }
+  .text-2xl { font-size: 1.25rem; }
+  .text-3xl { font-size: 1.5rem; }
+  
+  /* Reduce padding and margins */
+  .p-3 { padding: 0.5rem; }
+  .p-4 { padding: 0.75rem; }
+  .p-6 { padding: 1rem; }
+  .gap-3 { gap: 0.5rem; }
+  .gap-4 { gap: 0.75rem; }
+  .mb-4 { margin-bottom: 0.75rem; }
+  .mb-6 { margin-bottom: 1rem; }
+  
+  /* Smaller component sizes */
+  .w-12 { width: 2.5rem; }
+  .h-12 { height: 2.5rem; }
+  .w-14 { width: 3rem; }
+  .h-14 { height: 3rem; }
+  .w-16 { width: 3.5rem; }
+  .h-16 { height: 3.5rem; }
+  
+  /* Smaller rounded corners */
+  .rounded-xl { border-radius: 0.75rem; }
+  .rounded-2xl { border-radius: 1rem; }
+}
+
+/* Optimize for Galaxy S8 and similar small screens */
+@media (max-width: 360px) {
+  .main-container {
+    padding: 0 4px;
+  }
+  
+  body {
+    font-size: 10px;
+    padding-bottom: 70px;
+  }
+  
+  /* Further reduce spacing for very small screens */
+  .space-y-3 > * + * { margin-top: 0.5rem; }
+  .space-y-4 > * + * { margin-top: 0.75rem; }
+  
+  /* Extra small component sizes */
+  .w-10 { width: 2rem; }
+  .h-10 { height: 2rem; }
+  .w-12 { width: 2.25rem; }
+  .h-12 { height: 2.25rem; }
+  
+  /* Smaller text for very small screens */
+  .text-sm { font-size: 0.75rem; }
+  .text-base { font-size: 0.8rem; }
+  .text-lg { font-size: 0.9rem; }
+  
+  /* Reduce button padding */
+  .py-3 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+  .py-4 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+  .px-4 { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .px-6 { padding-left: 1rem; padding-right: 1rem; }
+}
+
+/* Galaxy S8 specific optimizations */
+@media (max-width: 360px) and (max-height: 740px) {
+  body {
+    padding-bottom: 65px;
+  }
+  
+  /* Compact header for small screens */
+  .header-compact {
+    padding: 0.5rem;
+  }
+  
+  /* Smaller mining interface */
+  .mining-compact {
+    max-width: 240px;
+  }
+  
+  /* Compact navigation */
+  .nav-compact {
+    padding: 0.5rem;
+  }
+  
+  .nav-compact button {
+    padding: 0.5rem;
+    min-height: 40px;
+  }
+}
+
+/* Enhanced responsive design for larger screens */
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    padding-bottom: 110px;
+  }
+}
+
+/* Enhanced main container responsive design */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+/* Responsive tap area sizing */
+.tap-area-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-height: 50vh;
+  padding: 1rem;
+}
+
+@media (max-width: 480px) {
+  .tap-area-container {
+    min-height: 45vh;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .tap-area-container {
+    min-height: 55vh;
+    padding: 2rem;
+  }
+}
+/* Improved touch targets for mobile */
+@media (max-width: 768px) {
+  button, .btn, [role="button"] {
+    min-height: 48px;
+    min-width: 48px;
+  }
+}
+
+/* Enhanced scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Slightly thinner */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03); /* More subtle track */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #34d399, #60a5fa); /* Brighter, more vibrant gradient */
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Thinner border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #10b981, #3b82f6); /* Darker hover */
+}
+
+/* Enhanced selection styling */
+::selection {
+  background: linear-gradient(135deg, #34d399, #60a5fa); /* Match scrollbar thumb */
+  color: white;
+}
+
+::-moz-selection {
+  background: linear-gradient(135deg, #34d399, #60a5fa);
+  color: white;
+}
+
+/* Enhanced focus styling */
+*:focus-visible {
+  /* Use focus-visible for better accessibility */
+  outline: 2px solid #34d399; /* Brighter focus ring */
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.2);
+}
+
+button:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid #34d399;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.2);
+}
+
+/* Optimized Animations */
+@keyframes bounce-up {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-80px) scale(1.2);
+  }
+}
+
+@keyframes bounce-up-critical {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(-40px) scale(1.3);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-100px) scale(1.5);
+  }
+}
+
+@keyframes bounce-up-jackpot {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0) scale(1) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(-20px) scale(1.2) rotate(5deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.4) rotate(-5deg);
+  }
+  75% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) translateY(-80px) scale(1.6) rotate(5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-120px) scale(1.8) rotate(0deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  53%,
+  80%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  40%,
+  43% {
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(52, 211, 153, 0.5); /* Updated glow color */
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(52, 211, 153, 0.8);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(120px) rotate(-360deg);
+  }
+}
+
+/* New: Subtle background pulse for active elements */
+@keyframes background-pulse {
+  0% {
+    background-color: rgba(52, 211, 153, 0.05);
+  }
+  50% {
+    background-color: rgba(52, 211, 153, 0.15);
+  }
+  100% {
+    background-color: rgba(52, 211, 153, 0.05);
+  }
+}
+
+/* New: Coin press animation */
+@keyframes coin-press {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* New: Pop-up text animation */
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -30%) scale(0.8);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -100%) scale(1.2);
+  }
+}
+
+/* Optimize animations for better performance */
+.animate-bounce-up,
+.animate-bounce-up-critical,
+.animate-bounce-up-jackpot,
+.animate-coin-press,
+.animate-pop-up {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .animate-bounce,
+  .animate-pulse,
+  .animate-spin,
+  .animate-ping {
+    animation: none;
+  }
+  
+  .animate-bounce-up,
+  .animate-bounce-up-critical,
+  .animate-bounce-up-jackpot {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* Enhanced utility classes */
+.animate-bounce-up {
+  animation: bounce-up 0.8s ease-out forwards;
+}
+
+.animate-bounce-up-critical {
+  animation: bounce-up-critical 1s ease-out forwards;
+}
+
+.animate-bounce-up-jackpot {
+  animation: bounce-up-jackpot 1.2s ease-out forwards;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-orbit {
+  animation: orbit 4s linear infinite;
+}
+
+.animate-background-pulse {
+  animation: background-pulse 3s ease-in-out infinite;
+}
+
+.animate-coin-press {
+  animation: coin-press 0.2s ease-out;
+}
+
+.animate-pop-up {
+  animation: pop-up 0.8s ease-out forwards;
+}
+
+/* Enhanced glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.03); /* More subtle transparency */
+  backdrop-filter: blur(15px); /* Slightly less blur */
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Thinner, more subtle border */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2); /* Softer shadow */
+}
+
+/* Performance optimizations */
+.coin-container {
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.tap-effect {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
