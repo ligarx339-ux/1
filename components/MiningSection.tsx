@@ -15,6 +15,7 @@ interface MiningSectionProps {
 
 export const MiningSection = ({ user, onStartMining, onClaimRewards, onOpenRank }: MiningSectionProps) => {
   const [timeLeft, setTimeLeft] = useState(0)
+  const [claimTimeLeft, setClaimTimeLeft] = useState(0)
   const [canClaim, setCanClaim] = useState(false)
   const [currentRewards, setCurrentRewards] = useState(0)
   const [bannerUrl, setBannerUrl] = useState("https://mining-master.onrender.com//assets/banner-BH8QO14f.png")
@@ -42,15 +43,20 @@ export const MiningSection = ({ user, onStartMining, onClaimRewards, onOpenRank 
         const duration = gameLogic.getMiningDuration(user)
         const minTime = user.minClaimTime || 1800 // 30 minutes default
         const remaining = gameLogic.getRemainingClaimTime(user)
+        const claimInterval = 300 // 5 minutes between claims
+        const timeSinceLastClaim = Math.floor((Date.now() - (user.lastClaimTime || 0)) / 1000)
+        const claimRemaining = Math.max(0, claimInterval - timeSinceLastClaim)
         
-        if (remaining <= 0) {
+        if (remaining <= 0 && claimRemaining <= 0) {
           setCanClaim(true)
           setTimeLeft(0)
+          setClaimTimeLeft(0)
           const rewards = gameLogic.calculatePendingRewards(user)
           setCurrentRewards(rewards)
         } else {
           setCanClaim(false)
           setTimeLeft(remaining)
+          setClaimTimeLeft(claimRemaining)
           const rewards = gameLogic.calculatePendingRewards(user)
           setCurrentRewards(rewards)
         }
@@ -286,7 +292,23 @@ export const MiningSection = ({ user, onStartMining, onClaimRewards, onOpenRank 
                   }}
                   className="text-xs sm:text-sm"
                 >
-                  {formatTime(timeLeft)}
+                  ⛏️ {formatTime(timeLeft)}
+                </span>
+              )}
+              {user.isMining && timeLeft <= 0 && claimTimeLeft > 0 && (
+                <span
+                  style={{
+                    fontSize: "14px",
+                    color: "#f59e0b",
+                    fontWeight: "bold",
+                    background: "rgba(245, 158, 11, 0.1)",
+                    padding: "3px 6px",
+                    borderRadius: "8px",
+                    border: "1px solid rgba(245, 158, 11, 0.3)",
+                  }}
+                  className="text-xs sm:text-sm animate-pulse"
+                >
+                  ⏱️ {formatTime(claimTimeLeft)}
                 </span>
               )}
               {user.isMining && canClaim && (
@@ -361,7 +383,7 @@ export const MiningSection = ({ user, onStartMining, onClaimRewards, onOpenRank 
               }}
             >
               <Gift style={{ width: "16px", height: "16px" }} className="w-4 h-4 sm:w-5 sm:h-5" />
-              {canClaim ? "Claim" : `Wait ${formatTime(timeLeft)}`}
+              {canClaim ? "Claim" : timeLeft > 0 ? `Mine ${formatTime(timeLeft)}` : `Wait ${formatTime(claimTimeLeft)}`}
             </button>
           )}
 

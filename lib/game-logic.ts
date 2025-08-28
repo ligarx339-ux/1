@@ -7,6 +7,7 @@ export const GAME_CONFIG = {
   WELCOME_BONUS: 100, // DRX
   JACKPOT_COOLDOWN: 3600000, // 1 hour
   MIN_CLAIM_TIME: 1800, // 30 minutes minimum mining time
+  MIN_CLAIM_INTERVAL: 300, // 5 minutes minimum between claims
   MAX_MINING_TIME: 86400, // 24 hours maximum mining time
   DAILY_MINING_REWARD: 100, // DRX for 30min continuous mining
   CRITICAL_CHANCE: 0.02,
@@ -178,8 +179,10 @@ export const gameLogic = {
     
     const now = Date.now()
     const miningDuration = Math.floor((now - user.miningStartTime) / 1000)
+    const timeSinceLastClaim = Math.floor((now - (user.lastClaimTime || 0)) / 1000)
     
-    return miningDuration >= (user.minClaimTime || GAME_CONFIG.MIN_CLAIM_TIME)
+    return miningDuration >= (user.minClaimTime || GAME_CONFIG.MIN_CLAIM_TIME) && 
+           timeSinceLastClaim >= GAME_CONFIG.MIN_CLAIM_INTERVAL
   },
 
   getMiningDuration(user: User): number {

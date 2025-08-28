@@ -1,7 +1,5 @@
 // PHP Backend API Service
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-domain.com/backend/api.php' 
-  : 'http://localhost:8000/backend/api.php'
+const API_BASE_URL = 'https://your-domain.com/backend/api.php'
 
 class APIService {
   private authKey: string = ''
@@ -43,6 +41,7 @@ class APIService {
     lastName?: string
     avatarUrl?: string
     referredBy?: string
+    refAuth?: string
   }) {
     return this.request('auth', {
       method: 'POST',

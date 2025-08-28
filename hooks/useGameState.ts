@@ -107,7 +107,8 @@ export const useGameState = () => {
         firstName: telegramUser?.first_name || getUrlParameter("first_name") || "User",
         lastName: telegramUser?.last_name || getUrlParameter("last_name") || "",
         avatarUrl: "",
-        referredBy: parseReferralFromUrl() || ""
+        referredBy: parseReferralFromUrl() || "",
+        refAuth: parseRefAuthFromUrl() || ""
       })
       
       if (!authResult.success) {
